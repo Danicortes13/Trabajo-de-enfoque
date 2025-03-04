@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Empresa Cortes</title>
+        <link rel="stylesheet" href="trabajo.css">
+    </head>
+<body>
+    <header>
+        <h1>Inmobiliaria Cortés</h1>
+           <nav>
+              <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">¿Quiénes somos?</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#trabaja">Trabaja con nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="inicio">
+        <h2>Inicio</h2>
+        <p>Bienvenidos a inmobiliaria Cortés. Tenemos las mejores casas para ti.</p>
+    </section>
+    
+    <section id="nosotros">
+        <h2>¿Quiénes somos?</h2>
+        <p>Somos una empresa dedicada a la venta,compra y alquiler de pisos en la zona de Madrid y Toledo</p>
+        <img src="equipoinmobilaria.webp" alt="Nuestro equipo" height="300" width="300"> <br>
+        <video controls>
+            <source src="videocomercial.mp4" type="video/mp4">
+        </video>
+    </section>
+    
+    <section id=servicios>
+        <h2>Servicios</h2>
+        <table>
+            <tr>
+                <th>Alquiler</th>
+                <th>Compra</th>
+                <th>Venta</th>
+            </tr>
+            <tr>
+                <td><img src="alquilar.jpg" alt="" height="300" width="300"></td>
+                <td><img src="compra.webp" alt="" height="300" width="300"></td>
+                <td><img src="vender.jpg"  alt="" height="300" width="300"></td>
+            </tr>
+        </table>
+    </section>
+    
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Email: inmobiliariacortes@gmail.com</p>
+        <form>
+            <label>Nombre: <input type="text" name="nombre" required></label>
+            <label>Email: <input type="email" name="email" required></label>
+            <label>Mensaje: <textarea name="mensaje" required></textarea></label>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    
+    <section id="trabaja">
+        <h2>Trabaja con nosotros</h2>
+        <h2>Cuestionario</h2>
+        <form>
+            <fieldset>
+                <legend>Datos Personales</legend>
+                <label>Nombre: <input type="text" name="nombre" required></label><br>
+                <label>Apellidos: <input type="text" name="apellidos" required></label><br>
+                <label>DNI: <input type="text" name="dni" required></label><br>
+                <label>Sexo: 
+                    <select name="sexo">
+                        <option value="masculino">Masculino</option>
+                        <option value="femenino">Femenino</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </label><br>
+                <label>Fecha de nacimiento: <input type="date" name="fecha_nacimiento" required></label><br>
+                <label>Ciudad: <input type="text" name="ciudad"></label><br>
+                <label>Nacionalidad: <input type="text" name="nacionalidad"></label><br>
+                <label>Código Postal: <input type="text" name="codigo_postal"></label><br>
+                <label>Teléfono: <input type="tel" name="telefono"></label><br>
+                <label>Email: <input type="email" name="email" required></label><br>
+            </fieldset>
+    
+            <fieldset>
+                <legend>Formación</legend>
+                <label>Titulación: <input type="text" name="titulacion"></label><br>
+                <label>Titulación2: <input type="text" name="titulacion"></label><br>
+                <label>Año de inicio: <input type="number" name="inicio" min="1900" max="2100"></label><br>
+                <label>Año de finalización: <input type="number" name="fin" min="1900" max="2100"></label><br>
+            </fieldset>
+    
+            <fieldset>
+                <legend>Idiomas</legend>
+                <label>Idioma: <input type="text" name="idioma"></label><br>
+                <label>Hablado: 
+                    <select name="hablado">
+                        <option value="excelente">Excelente</option>
+                        <option value="bien">Bien</option>
+                        <option value="regular">Regular</option>
+                        <option value="nada">Nada</option>
+                    </select>
+                </label><br>
+                <label>Leído: 
+                    <select name="leido">
+                        <option value="excelente">Excelente</option>
+                        <option value="bien">Bien</option>
+                        <option value="regular">Regular</option>
+                        <option value="nada">Nada</option>
+                    </select>
+                </label><br>
+                <label>Escrito: 
+                    <select name="escrito">
+                        <option value="excelente">Excelente</option>
+                        <option value="bien">Bien</option>
+                        <option value="regular">Regular</option>
+                        <option value="nada">Nada</option>
+                    </select>
+                </label><br>
+            </fieldset>
+    
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    
+    <footer>
+       <h2>También puedes visitarnos en nuestras redes sociales</h2>
+       <p>Visitanos en nuestras redes sociales y enterate de las ultimas noticias!!</p>
+        <img src="x.png" alt="x" height="150" width="150"> <img src="facebook.png" alt="facebook" height="150" width="150"> <img src="instagram.jpg" alt="instagram" height="150" width="150" > <img src="tiktok.png" alt="tiktok" height="150" width="150">
+    </footer>
+</body>
+</html>
